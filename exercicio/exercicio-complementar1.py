@@ -8,3 +8,24 @@ na lista.
 Exemplo da estrutura a ser criada:
 alunos = [('Alice', 20, 8.5), ('Bob', 18, 5.0), ('Eva', 22, 7.5)]
 ''' 
+
+def alunos_aprovados(alunos):
+    aprovados = []
+    for tupla in alunos:
+        if tupla[2] >= 7:
+            aprovados.append(tupla)
+    return aprovados
+
+
+alunos = []
+
+while True:
+    nome = input('Nome do aluno (digite 0 para finalizar): ')
+    if nome == '0':
+        break
+    idade = int(input('Informe a idade: '))
+    media = float(input('Informe a média: '))
+    tupla = (nome, idade, media)
+    alunos.append(tupla)
+print(alunos)
+print(alunos_aprovados)
