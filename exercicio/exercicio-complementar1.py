@@ -5,4 +5,6 @@ Escreva uma função chamada "alunos_aprovados" que recebe a lista de alunos e r
 uma nova lista apenas com os alunos que têm uma nota média maior ou igual a 7.
 Escreva uma função chamada "idade_media" que calcula a idade média de todos os alunos
 na lista.
-'''
+Exemplo da estrutura a ser criada:
+alunos = [('Alice', 20, 8.5), ('Bob', 18, 5.0), ('Eva', 22, 7.5)]
+''' 
