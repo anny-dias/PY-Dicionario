@@ -9,7 +9,7 @@ Exemplo da estrutura a ser criada:
 alunos = [('Alice', 20, 8.5), ('Bob', 18, 5.0), ('Eva', 22, 7.5)]
 ''' 
 
-def alunos_aprovados(alunos):
+def alunos_aprovados():
     aprovados = []
     for tupla in alunos:
         if tupla[2] >= 7:
@@ -28,4 +28,4 @@ while True:
     tupla = (nome, idade, media)
     alunos.append(tupla)
 print(alunos)
-print(alunos_aprovados)
+print(alunos_aprovados())
